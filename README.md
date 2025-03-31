@@ -41,9 +41,11 @@ csv
 name,email,phone,budget,interest,pages_visited,time_spent_sec
 John Doe,john@example.com,555-1234,$10K,Real Estate,"['/funds','/pricing']",227
 ```
+
 2. Generate Reports:
 ```bash
 python report.py
+
 Output will be saved as leadai_report.pdf
 
 🧩 Customization
