@@ -49,7 +49,7 @@ Output will be saved as leadai_report.pdf
 
 🧩 Customization
 ```
-Modify Report Columns
+1. Modify Report Columns
 
 Edit these lines in report.py:
 ```
@@ -57,7 +57,7 @@ headers = ["Name", "Email", "Budget", "Interest"]  # Change column titles
 col_widths = [40, 80, 30, 40]                    # Adjust column widths
 ```
 
-Add Scoring Logic
+2. Add Scoring Logic
 
 Insert before PDF generation:
 ```
@@ -68,15 +68,15 @@ df["score"] = df["time_spent_sec"] / 10
 🛡️ Data Security
 For sensitive data:
 
-Add to .gitignore:
-```bash
-echo "leads.csv" >> .gitignore
+1. Add to .gitignore:
+  ```bash
+   echo "leads.csv" >> .gitignore
 
-Use environment variables for paths:
-
-import os
-csv_path = os.getenv('LEADS_CSV_PATH', 'sample_leads.csv')
-```
+2. Use environment variables for paths:
+   ```
+   import os
+   csv_path = os.getenv('LEADS_CSV_PATH', 'sample_leads.csv')
+   ```
 
 🤝 Contributing
 
@@ -108,21 +108,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-### Key Features of This README:
-1. **Clear Visual Hierarchy** - Badges and emojis organize sections
-2. **Complete Usage Guide** - From installation to customization
-3. **Data Safety Notes** - Critical for handling real lead data
-4. **Contributor-Friendly** - Standard open-source workflow
-5. **Professional Polish** - License section and support info
-
-### Recommended Next Steps:
-1. Create a `LICENSE` file (MIT recommended for open source)
-2. Add a screenshot of your PDF report (drag into GitHub's README editor)
-3. Set up GitHub Actions to auto-generate reports on CSV upload (I can help!)
-
-Would you like me to:
-1. Provide a more detailed CSV schema documentation?
-2. Help set up a Python virtual environment guide?
-3. Add a troubleshooting section for common issues?
