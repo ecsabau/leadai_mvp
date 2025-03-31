@@ -18,9 +18,9 @@ A Python-based system that analyzes lead data from CSV files and generates profe
    git clone https://github.com/ecsabau/leadai_mvp.git
    
 2. Install dependencies:
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 3. Generate the report:
-```bash
-python report.py
+   ```bash
+   python report.py
