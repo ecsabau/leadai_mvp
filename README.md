@@ -47,8 +47,9 @@ python report.py
 Output will be saved as leadai_report.pdf
 
 🧩 Customization
-
+```
 Modify Report Columns
+
 Edit these lines in report.py:
 ```
 headers = ["Name", "Email", "Budget", "Interest"]  # Change column titles
@@ -75,6 +76,7 @@ Use environment variables for paths:
 import os
 csv_path = os.getenv('LEADS_CSV_PATH', 'sample_leads.csv')
 ```
+
 🤝 Contributing
 
 Fork the repository
