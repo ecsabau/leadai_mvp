@@ -25,7 +25,7 @@ A Python-based system that analyzes lead data from CSV files and generates profe
    ```bash
    python report.py
 
-📂 File Structure:
+## 📂 File Structure:
 ```leadai_mvp/
 ├── report.py               # Main PDF generation script
 ├── sample_leads.csv        # Example dataset (fake data)
@@ -33,7 +33,7 @@ A Python-based system that analyzes lead data from CSV files and generates profe
 ├── .gitignore             # Specifies files to exclude from Git
 └── leadai_report.pdf       # Sample output (generated)
 ```
-🚀 Usage
+## 🚀 Usage
 1. Prepare Your Data:
 Create a CSV file named leads.csv with these columns (or modify report.py to match your schema):
 ```
@@ -45,10 +45,10 @@ John Doe,john@example.com,555-1234,$10K,Real Estate,"['/funds','/pricing']",227
 2. Generate Reports:
 ```bash
 python report.py
-
+```
 Output will be saved as leadai_report.pdf
 
-🧩 Customization
+## 🧩 Customization
 
 ```
 1. Modify Report Columns
@@ -67,7 +67,7 @@ Insert before PDF generation:
 df["score"] = df["time_spent_sec"] / 10
 ```
 
-🛡️ Data Security
+## 🛡️ Data Security
 For sensitive data:
 
 1. Add to .gitignore:
@@ -80,7 +80,7 @@ For sensitive data:
    csv_path = os.getenv('LEADS_CSV_PATH', 'sample_leads.csv')
    ```
 
-🤝 Contributing
+## 🤝 Contributing
 
 Fork the repository
 Create a feature branch (git checkout -b feature/improvement)
@@ -88,7 +88,7 @@ Commit changes (git commit -m 'Add new feature')
 Push to branch (git push origin feature/improvement)
 Open a Pull Request
 
-📜 License
+## 📜 License
 MIT License
 
 Copyright (c) 2025 ecsabau
@@ -110,3 +110,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## 📬 Contact 
+For inquiries or collaboration opportunities, contact us at:
+
+📩 Email: elvira@nextgenaisolutions.co.uk
+
+🌍 Website: https://nextgenaisolutions.co.uk
