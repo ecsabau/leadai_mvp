@@ -50,7 +50,7 @@ Output will be saved as leadai_report.pdf
 
 ## 🧩 Customization
 
-```
+
 1. Modify Report Columns
 
 Edit these lines in report.py:
