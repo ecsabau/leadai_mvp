@@ -21,10 +21,6 @@ A Python-based system that analyzes lead data from CSV files and generates profe
 ```bash
 pip install -r requirements.txt
 
-
-3. Add your leads.csv file
-```bash
-
-4. Generate the report:
+3. Generate the report:
 ```bash
 python report.py
