@@ -71,7 +71,7 @@ For sensitive data:
 1. Add to .gitignore:
   ```bash
    echo "leads.csv" >> .gitignore
-
+  ```
 2. Use environment variables for paths:
    ```
    import os
