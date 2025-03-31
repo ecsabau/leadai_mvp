@@ -73,7 +73,7 @@ Add to .gitignore:
 echo "leads.csv" >> .gitignore
 
 Use environment variables for paths:
-```
+
 import os
 csv_path = os.getenv('LEADS_CSV_PATH', 'sample_leads.csv')
 ```
