@@ -47,9 +47,9 @@ python report.py
 Output will be saved as leadai_report.pdf
 
 🧩 Customization
-
-1. Modify Report Columns
 ```
+1. Modify Report Columns
+
 Edit these lines in report.py:
 ```
 headers = ["Name", "Email", "Budget", "Interest"]  # Change column titles
